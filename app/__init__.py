@@ -24,7 +24,7 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 
 # Initialize Flask extensions
-db = SQLAlchemy(app)
+db = SQLAlchemy(app) 
 migrate = Migrate(app, db)
 login = LoginManager(app)
 login.login_view = 'admin_login'  # Set the login view for Flask-Login
