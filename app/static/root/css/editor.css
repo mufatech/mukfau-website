@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Boss';
+  src: url('/app/static/root/fonts/Boss/DM_Serif_Display/DMSerifDisplay-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Lora';
+  src: url('/app/static/root/fonts/Lora/Lora-VariableFont_wght.ttf');
+}
+
+.boss {
+  font-family: 'Boss';
+}
+
+.lora {
+  font-family: 'Lora';
+}

@@ -316,7 +316,11 @@ ol {
 -----------------------*/
 
 .header {
-	background: #ffffff;
+	background: #ffffff7e;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 100;
 }
 
 .header__top {
@@ -548,6 +552,8 @@ ol {
   Hero
 -----------------------*/
 
+
+
 .hero__slider.owl-carousel .owl-item.active .hero__text h6 {
 	top: 0;
 	opacity: 1;
@@ -584,8 +590,9 @@ ol {
 }
 
 .hero__items {
-	height: 800px;
-	padding-top: 230px;
+	height: 100vh;
+	display: flex;
+	align-items: center;
 }
 
 .hero__text h6 {
@@ -646,7 +653,7 @@ ol {
 }
 
 .hero__social {
-	margin-top: 190px;
+	margin-top: 1px;
 }
 
 .hero__social a {
@@ -700,6 +707,7 @@ ol {
 
 .banner__item__pic {
 	float: right;
+	
 }
 
 .banner__item__text {
